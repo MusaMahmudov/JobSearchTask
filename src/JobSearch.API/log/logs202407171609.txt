@@ -1,0 +1,84 @@
+2024-07-17 16:09:00.395 +04:00 [DBG] Connection id "0HN56B4UNBNC1" accepted.
+2024-07-17 16:09:00.399 +04:00 [DBG] Connection id "0HN56B4UNBNC1" started.
+2024-07-17 16:09:00.425 +04:00 [DBG] Connection 0HN56B4UNBNC1 established using the following protocol: "Tls13"
+2024-07-17 16:09:00.512 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - null null
+2024-07-17 16:09:00.618 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-17 16:09:00.641 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-17 16:09:00.642 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 16:09:00.707 +04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-07-17 16:09:00.709 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-17 16:09:00.721 +04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-07-17 16:09:00.722 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-17 16:09:00.724 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - 200 null text/html;charset=utf-8 213.7292ms
+2024-07-17 16:09:00.732 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - null null
+2024-07-17 16:09:00.732 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-17 16:09:00.740 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.6136ms
+2024-07-17 16:09:00.757 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.6499ms
+2024-07-17 16:09:00.922 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - null null
+2024-07-17 16:09:00.926 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-17 16:09:00.927 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 16:09:01.019 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.2585ms
+2024-07-17 16:09:51.488 +04:00 [DBG] Connection id "0HN56B4UNBNC2" accepted.
+2024-07-17 16:09:51.490 +04:00 [DBG] Connection id "0HN56B4UNBNC2" started.
+2024-07-17 16:09:51.490 +04:00 [DBG] Connection id "0HN56B4UNBNC3" accepted.
+2024-07-17 16:09:51.493 +04:00 [DBG] Connection id "0HN56B4UNBNC3" started.
+2024-07-17 16:09:51.494 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 16:09:51.499 +04:00 [DBG] Connection id "0HN56B4UNBNC2" stopped.
+2024-07-17 16:09:51.499 +04:00 [DBG] Connection id "0HN56B4UNBNC2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 16:09:52.579 +04:00 [DBG] Connection id "0HN56B4UNBNC4" accepted.
+2024-07-17 16:09:52.580 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 16:09:52.580 +04:00 [DBG] Connection id "0HN56B4UNBNC4" started.
+2024-07-17 16:09:52.583 +04:00 [DBG] Connection id "0HN56B4UNBNC3" stopped.
+2024-07-17 16:09:52.584 +04:00 [DBG] Connection id "0HN56B4UNBNC3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 16:09:52.586 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 16:09:52.589 +04:00 [DBG] Connection id "0HN56B4UNBNC4" stopped.
+2024-07-17 16:09:52.589 +04:00 [DBG] Connection id "0HN56B4UNBNC4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 16:09:52.591 +04:00 [DBG] Connection id "0HN56B4UNBNC5" accepted.
+2024-07-17 16:09:52.592 +04:00 [DBG] Connection id "0HN56B4UNBNC5" started.
+2024-07-17 16:09:52.593 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 16:09:52.595 +04:00 [DBG] Connection id "0HN56B4UNBNC5" stopped.
+2024-07-17 16:09:52.596 +04:00 [DBG] Connection id "0HN56B4UNBNC5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 16:09:58.268 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - null null
+2024-07-17 16:09:58.273 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-17 16:09:58.274 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 16:09:58.276 +04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-07-17 16:09:58.277 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-17 16:09:58.279 +04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-07-17 16:09:58.280 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-17 16:09:58.281 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - 200 null text/html;charset=utf-8 12.4787ms
+2024-07-17 16:09:58.298 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-17 16:09:58.303 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.2193ms
+2024-07-17 16:09:58.308 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - null null
+2024-07-17 16:09:58.318 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.4355ms
+2024-07-17 16:09:58.487 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - null null
+2024-07-17 16:09:58.491 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-17 16:09:58.492 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 16:09:58.498 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.8177ms

@@ -1,0 +1,31 @@
+2024-07-17 16:08:58.496 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-17 16:08:58.675 +04:00 [DBG] Hosting starting
+2024-07-17 16:08:59.023 +04:00 [INF] Now listening on: https://localhost:7057
+2024-07-17 16:08:59.025 +04:00 [INF] Now listening on: http://localhost:5269
+2024-07-17 16:08:59.025 +04:00 [DBG] Loaded hosting startup assembly JobSearch.API
+2024-07-17 16:08:59.026 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-17 16:08:59.027 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-17 16:08:59.027 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-17 16:08:59.028 +04:00 [INF] Hosting environment: Development
+2024-07-17 16:08:59.029 +04:00 [INF] Content root path: C:\Users\binch\source\repos\JobSearch\src\JobSearch.API
+2024-07-17 16:08:59.030 +04:00 [DBG] Hosting started
+2024-07-17 16:08:59.320 +04:00 [DBG] Connection id "0HN56B4UNBNBV" received FIN.
+2024-07-17 16:08:59.320 +04:00 [DBG] Connection id "0HN56B4UNBNC0" received FIN.
+2024-07-17 16:08:59.325 +04:00 [DBG] Connection id "0HN56B4UNBNBV" accepted.
+2024-07-17 16:08:59.325 +04:00 [DBG] Connection id "0HN56B4UNBNC0" accepted.
+2024-07-17 16:08:59.326 +04:00 [DBG] Connection id "0HN56B4UNBNBV" started.
+2024-07-17 16:08:59.327 +04:00 [DBG] Connection id "0HN56B4UNBNC0" started.
+2024-07-17 16:08:59.339 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 16:08:59.339 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 16:08:59.353 +04:00 [DBG] Connection id "0HN56B4UNBNBV" stopped.
+2024-07-17 16:08:59.353 +04:00 [DBG] Connection id "0HN56B4UNBNC0" stopped.
+2024-07-17 16:08:59.356 +04:00 [DBG] Connection id "0HN56B4UNBNBV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 16:08:59.356 +04:00 [DBG] Connection id "0HN56B4UNBNC0" sending FIN because: "The Socket transport's send loop completed gracefully."

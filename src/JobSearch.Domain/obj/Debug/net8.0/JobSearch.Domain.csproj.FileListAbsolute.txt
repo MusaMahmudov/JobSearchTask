@@ -1,0 +1,11 @@
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\bin\Debug\net8.0\JobSearch.Domain.deps.json
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\bin\Debug\net8.0\JobSearch.Domain.dll
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\bin\Debug\net8.0\JobSearch.Domain.pdb
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\obj\Debug\net8.0\JobSearch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\obj\Debug\net8.0\JobSearch.Domain.AssemblyInfoInputs.cache
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\obj\Debug\net8.0\JobSearch.Domain.AssemblyInfo.cs
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\obj\Debug\net8.0\JobSearch.Domain.csproj.CoreCompileInputs.cache
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\obj\Debug\net8.0\JobSearch.Domain.dll
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\obj\Debug\net8.0\refint\JobSearch.Domain.dll
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\obj\Debug\net8.0\JobSearch.Domain.pdb
+C:\Users\binch\source\repos\JobSearch\src\JobSearch.Domain\obj\Debug\net8.0\ref\JobSearch.Domain.dll

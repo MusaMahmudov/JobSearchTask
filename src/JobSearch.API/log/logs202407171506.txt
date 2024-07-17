@@ -1,0 +1,37 @@
+2024-07-17 15:06:22.012 +04:00 [DBG] Config reload token fired. Checking for changes...
+2024-07-17 15:06:22.162 +04:00 [DBG] Connection id "0HN56A183DV32" received FIN.
+2024-07-17 15:06:22.165 +04:00 [DBG] Connection id "0HN56A183DV32" accepted.
+2024-07-17 15:06:22.166 +04:00 [DBG] Connection id "0HN56A183DV32" started.
+2024-07-17 15:06:22.167 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 15:06:22.180 +04:00 [DBG] Connection id "0HN56A183DV32" stopped.
+2024-07-17 15:06:22.181 +04:00 [DBG] Connection id "0HN56A183DV32" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 15:06:22.281 +04:00 [DBG] Config reload token fired. Checking for changes...
+2024-07-17 15:06:24.014 +04:00 [DBG] Connection id "0HN56A183DV33" accepted.
+2024-07-17 15:06:24.016 +04:00 [DBG] Connection id "0HN56A183DV33" started.
+2024-07-17 15:06:24.089 +04:00 [DBG] Connection 0HN56A183DV33 established using the following protocol: "Tls13"
+2024-07-17 15:06:24.159 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - null null
+2024-07-17 15:06:24.257 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-17 15:06:24.292 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-17 15:06:24.294 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 15:06:24.378 +04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-07-17 15:06:24.381 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-17 15:06:24.395 +04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-07-17 15:06:24.397 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-17 15:06:24.401 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - 200 null text/html;charset=utf-8 244.5259ms
+2024-07-17 15:06:24.559 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-17 15:06:24.566 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.1621ms
+2024-07-17 15:06:24.576 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - null null
+2024-07-17 15:06:24.607 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.6435ms
+2024-07-17 15:06:24.809 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - null null
+2024-07-17 15:06:24.813 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-17 15:06:24.815 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 15:06:24.933 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 123.3941ms
+2024-07-17 15:06:27.052 +04:00 [DBG] Connection id "0HN56A183DV33" received FIN.
+2024-07-17 15:06:27.057 +04:00 [DBG] The connection queue processing loop for 0HN56A183DV33 completed.
+2024-07-17 15:06:27.060 +04:00 [DBG] Connection id "0HN56A183DV33" is closed. The last processed stream ID was 7.
+2024-07-17 15:06:27.063 +04:00 [DBG] Connection id "0HN56A183DV33" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 15:06:27.074 +04:00 [DBG] Connection id "0HN56A183DV33" stopped.

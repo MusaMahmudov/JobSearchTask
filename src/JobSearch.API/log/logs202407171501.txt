@@ -1,0 +1,235 @@
+2024-07-17 15:01:43.916 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-17 15:01:44.008 +04:00 [DBG] Hosting starting
+2024-07-17 15:01:44.105 +04:00 [INF] Now listening on: https://localhost:7057
+2024-07-17 15:01:44.110 +04:00 [INF] Now listening on: http://localhost:5269
+2024-07-17 15:01:44.115 +04:00 [DBG] Loaded hosting startup assembly JobSearch.API
+2024-07-17 15:01:44.116 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-17 15:01:44.117 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-17 15:01:44.118 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-17 15:01:44.119 +04:00 [INF] Hosting environment: Development
+2024-07-17 15:01:44.120 +04:00 [INF] Content root path: C:\Users\binch\source\repos\JobSearch\src\JobSearch.API
+2024-07-17 15:01:44.120 +04:00 [DBG] Hosting started
+2024-07-17 15:01:44.414 +04:00 [DBG] Connection id "0HN569VC7G78T" received FIN.
+2024-07-17 15:01:44.414 +04:00 [DBG] Connection id "0HN569VC7G78U" received FIN.
+2024-07-17 15:01:44.423 +04:00 [DBG] Connection id "0HN569VC7G78T" accepted.
+2024-07-17 15:01:44.423 +04:00 [DBG] Connection id "0HN569VC7G78U" accepted.
+2024-07-17 15:01:44.426 +04:00 [DBG] Connection id "0HN569VC7G78T" started.
+2024-07-17 15:01:44.428 +04:00 [DBG] Connection id "0HN569VC7G78U" started.
+2024-07-17 15:01:44.445 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 15:01:44.445 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 15:01:44.464 +04:00 [DBG] Connection id "0HN569VC7G78U" stopped.
+2024-07-17 15:01:44.465 +04:00 [DBG] Connection id "0HN569VC7G78T" stopped.
+2024-07-17 15:01:44.469 +04:00 [DBG] Connection id "0HN569VC7G78T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 15:01:44.469 +04:00 [DBG] Connection id "0HN569VC7G78U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 15:01:44.527 +04:00 [DBG] Connection id "0HN569VC7G78V" accepted.
+2024-07-17 15:01:44.529 +04:00 [DBG] Connection id "0HN569VC7G78V" started.
+2024-07-17 15:01:44.573 +04:00 [DBG] Connection 0HN569VC7G78V established using the following protocol: "Tls13"
+2024-07-17 15:01:44.612 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - null null
+2024-07-17 15:01:44.693 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-17 15:01:44.718 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-17 15:01:44.721 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 15:01:44.795 +04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-07-17 15:01:44.799 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-17 15:01:44.814 +04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-07-17 15:01:44.816 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-17 15:01:44.819 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-17 15:01:44.819 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - null null
+2024-07-17 15:01:44.821 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - 200 null text/html;charset=utf-8 209.8277ms
+2024-07-17 15:01:44.830 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.0895ms
+2024-07-17 15:01:44.859 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.2741ms
+2024-07-17 15:01:44.993 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - null null
+2024-07-17 15:01:45.000 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-17 15:01:45.004 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 15:01:45.111 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.4647ms
+2024-07-17 15:01:54.818 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/api/Announcments?Page=1&Take=1 - null null
+2024-07-17 15:01:54.841 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Announcments'
+2024-07-17 15:01:54.846 +04:00 [DBG] Endpoint 'JobSearch.API.Controllers.AnnouncmentsController.GetAll (JobSearch.API)' with route pattern 'api/Announcments' is valid for the request path '/api/Announcments'
+2024-07-17 15:01:54.849 +04:00 [DBG] Request matched endpoint 'JobSearch.API.Controllers.AnnouncmentsController.GetAll (JobSearch.API)'
+2024-07-17 15:01:54.853 +04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-17 15:01:54.855 +04:00 [INF] Executing endpoint 'JobSearch.API.Controllers.AnnouncmentsController.GetAll (JobSearch.API)'
+2024-07-17 15:01:54.875 +04:00 [INF] Route matched with {action = "GetAll", controller = "Announcments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller JobSearch.API.Controllers.AnnouncmentsController (JobSearch.API).
+2024-07-17 15:01:54.880 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-17 15:01:54.882 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-17 15:01:54.883 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-17 15:01:54.885 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-17 15:01:54.886 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-17 15:01:54.889 +04:00 [DBG] Executing controller factory for controller JobSearch.API.Controllers.AnnouncmentsController (JobSearch.API)
+2024-07-17 15:01:54.890 +04:00 [DBG] Executed controller factory for controller JobSearch.API.Controllers.AnnouncmentsController (JobSearch.API)
+2024-07-17 15:01:54.901 +04:00 [DBG] Attempting to bind parameter 'Page' of type 'System.Int32' ...
+2024-07-17 15:01:54.903 +04:00 [DBG] Attempting to bind parameter 'Page' of type 'System.Int32' using the name 'Page' in request data ...
+2024-07-17 15:01:54.905 +04:00 [DBG] Done attempting to bind parameter 'Page' of type 'System.Int32'.
+2024-07-17 15:01:54.906 +04:00 [DBG] Done attempting to bind parameter 'Page' of type 'System.Int32'.
+2024-07-17 15:01:54.907 +04:00 [DBG] Attempting to validate the bound parameter 'Page' of type 'System.Int32' ...
+2024-07-17 15:01:54.909 +04:00 [DBG] Done attempting to validate the bound parameter 'Page' of type 'System.Int32'.
+2024-07-17 15:01:54.912 +04:00 [DBG] Attempting to bind parameter 'Take' of type 'System.Int32' ...
+2024-07-17 15:01:54.913 +04:00 [DBG] Attempting to bind parameter 'Take' of type 'System.Int32' using the name 'Take' in request data ...
+2024-07-17 15:01:54.915 +04:00 [DBG] Done attempting to bind parameter 'Take' of type 'System.Int32'.
+2024-07-17 15:01:54.916 +04:00 [DBG] Done attempting to bind parameter 'Take' of type 'System.Int32'.
+2024-07-17 15:01:54.917 +04:00 [DBG] Attempting to validate the bound parameter 'Take' of type 'System.Int32' ...
+2024-07-17 15:01:54.918 +04:00 [DBG] Done attempting to validate the bound parameter 'Take' of type 'System.Int32'.
+2024-07-17 15:01:55.025 +04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-17 15:01:55.648 +04:00 [WRN] No store type was specified for the decimal property 'MaximumSalary' on entity type 'AnnouncmentSalary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-17 15:01:55.651 +04:00 [WRN] No store type was specified for the decimal property 'MinimumSalary' on entity type 'AnnouncmentSalary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-17 15:01:55.766 +04:00 [DBG] Entity Framework Core 8.0.7 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.7' with options: None
+2024-07-17 15:01:55.831 +04:00 [DBG] Compiling query expression: 
+'DbSet<Announcment>()
+    .Count()'
+2024-07-17 15:01:55.963 +04:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM Announcment AS a), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        JobSearch.Persistance.Contexts.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-07-17 15:01:55.991 +04:00 [DBG] Creating DbConnection.
+2024-07-17 15:01:56.013 +04:00 [DBG] Created DbConnection. (22ms).
+2024-07-17 15:01:56.018 +04:00 [DBG] Opening connection to database 'JobSearchTask' on server 'MUSA\SQLEXPRESS'.
+2024-07-17 15:01:56.222 +04:00 [DBG] Opened connection to database 'JobSearchTask' on server 'MUSA\SQLEXPRESS'.
+2024-07-17 15:01:56.227 +04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-17 15:01:56.233 +04:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-07-17 15:01:56.235 +04:00 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-07-17 15:01:56.240 +04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Announcment] AS [a]
+2024-07-17 15:01:56.279 +04:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Announcment] AS [a]
+2024-07-17 15:01:56.294 +04:00 [DBG] Closing data reader to 'JobSearchTask' on server 'MUSA\SQLEXPRESS'.
+2024-07-17 15:01:56.300 +04:00 [DBG] A data reader for 'JobSearchTask' on server 'MUSA\SQLEXPRESS' is being disposed after spending 15ms reading results.
+2024-07-17 15:01:56.304 +04:00 [DBG] Closing connection to database 'JobSearchTask' on server 'MUSA\SQLEXPRESS'.
+2024-07-17 15:01:56.308 +04:00 [DBG] Closed connection to database 'JobSearchTask' on server 'MUSA\SQLEXPRESS' (4ms).
+2024-07-17 15:01:56.318 +04:00 [DBG] Compiling query expression: 
+'DbSet<Announcment>()
+    .AsNoTracking()
+    .Skip(__p_0)
+    .Take(__p_1)
+    .Include("Requirements")
+    .Include("Company")
+    .Include("Category")
+    .Include("JobType")
+    .Include("Salary.Currency")
+    .Include("Salary.SalaryType")'
+2024-07-17 15:01:56.330 +04:00 [DBG] Including navigation: 'Announcment.Requirements'.
+2024-07-17 15:01:56.336 +04:00 [DBG] Including navigation: 'Announcment.Company'.
+2024-07-17 15:01:56.338 +04:00 [DBG] Including navigation: 'Announcment.Category'.
+2024-07-17 15:01:56.339 +04:00 [DBG] Including navigation: 'Announcment.JobType'.
+2024-07-17 15:01:56.342 +04:00 [DBG] Including navigation: 'Announcment.Salary'.
+2024-07-17 15:01:56.344 +04:00 [DBG] Including navigation: 'AnnouncmentSalary.Currency'.
+2024-07-17 15:01:56.345 +04:00 [DBG] Including navigation: 'AnnouncmentSalary.SalaryType'.
+2024-07-17 15:01:56.351 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-07-17 15:01:56.352 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-07-17 15:01:56.446 +04:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Announcment>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Announcment.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Announcment.CategoryId (Guid) Required FK Index, 1], [Property: Announcment.CompanyId (Guid) Required FK Index, 2], [Property: Announcment.CreatedAt (DateTime) Required, 3], [Property: Announcment.CreatedBy (string) Required, 4], [Property: Announcment.EndDate (DateTime) Required, 5], [Property: Announcment.IsDeleted (bool) Required, 6], [Property: Announcment.IsPremium (bool) Required, 7], [Property: Announcment.JobDescription (string) Required, 8], [Property: Announcment.JobTypeId (Guid) Required FK Index, 9], [Property: Announcment.Overview (string) Required, 10], [Property: Announcment.Position (string) Required, 11], [Property: Announcment.StartDate (DateTime) Required, 12], [Property: Announcment.UpdatedAt (DateTime) Required, 13], [Property: Announcment.UpdatedBy (string) Required, 14] }
+            1 -> 0
+            2 -> 15
+            3 -> 16
+            4 -> 17
+            5 -> 18
+            6 -> 19
+            7 -> 20
+            8 -> Dictionary<IProperty, int> { [Property: Requirements.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 21], [Property: Requirements.AnnouncmentId (Guid) Required FK Index, 22], [Property: Requirements.CreatedAt (DateTime) Required, 23], [Property: Requirements.CreatedBy (string) Required, 24], [Property: Requirements.Description (string) Required, 25], [Property: Requirements.IsDeleted (bool) Required, 26], [Property: Requirements.UpdatedAt (DateTime) Required, 27], [Property: Requirements.UpdatedBy (string) Required, 28] }
+            9 -> 21
+            10 -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 15], [Property: Company.CreatedAt (DateTime) Required, 29], [Property: Company.CreatedBy (string) Required, 30], [Property: Company.IsDeleted (bool) Required, 31], [Property: Company.Name (string) Required, 32], [Property: Company.Overview (string) Required, 33], [Property: Company.UpdatedAt (DateTime) Required, 34], [Property: Company.UpdatedBy (string) Required, 35] }
+            11 -> Dictionary<IProperty, int> { [Property: Category.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 16], [Property: Category.CreatedAt (DateTime) Required, 36], [Property: Category.CreatedBy (string) Required, 37], [Property: Category.IsDeleted (bool) Required, 38], [Property: Category.Name (string) Required, 39], [Property: Category.UpdatedAt (DateTime) Required, 40], [Property: Category.UpdatedBy (string) Required, 41] }
+            12 -> Dictionary<IProperty, int> { [Property: JobType.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 17], [Property: JobType.CreatedAt (DateTime) Required, 42], [Property: JobType.CreatedBy (string) Required, 43], [Property: JobType.IsDeleted (bool) Required, 44], [Property: JobType.Name (string) Required, 45], [Property: JobType.UpdatedAt (DateTime) Required, 46], [Property: JobType.UpdatedBy (string) Required, 47] }
+            13 -> Dictionary<IProperty, int> { [Property: AnnouncmentSalary.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 18], [Property: AnnouncmentSalary.AnnouncmentId (Guid) Required FK Index, 48], [Property: AnnouncmentSalary.CreatedAt (DateTime) Required, 49], [Property: AnnouncmentSalary.CreatedBy (string) Required, 50], [Property: AnnouncmentSalary.CurrencyId (Guid) Required FK Index, 51], [Property: AnnouncmentSalary.IsDeleted (bool) Required, 52], [Property: AnnouncmentSalary.MaximumSalary (decimal?), 53], [Property: AnnouncmentSalary.MinimumSalary (decimal) Required, 54], [Property: AnnouncmentSalary.SalaryTypeId (Guid) Required FK Index, 55], [Property: AnnouncmentSalary.UpdatedAt (DateTime) Required, 56], [Property: AnnouncmentSalary.UpdatedBy (string) Required, 57] }
+            14 -> Dictionary<IProperty, int> { [Property: Currency.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 19], [Property: Currency.CreatedAt (DateTime) Required, 58], [Property: Currency.CreatedBy (string) Required, 59], [Property: Currency.IsDeleted (bool) Required, 60], [Property: Currency.Name (string) Required, 61], [Property: Currency.UpdatedAt (DateTime) Required, 62], [Property: Currency.UpdatedBy (string) Required, 63] }
+            15 -> Dictionary<IProperty, int> { [Property: SalaryType.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 20], [Property: SalaryType.CreatedAt (DateTime) Required, 64], [Property: SalaryType.CreatedBy (string) Required, 65], [Property: SalaryType.IsDeleted (bool) Required, 66], [Property: SalaryType.Name (string) Required, 67], [Property: SalaryType.UpdatedAt (DateTime) Required, 68], [Property: SalaryType.UpdatedBy (string) Required, 69] }
+        SELECT t.Id, t.CategoryId, t.CompanyId, t.CreatedAt, t.CreatedBy, t.EndDate, t.IsDeleted, t.IsPremium, t.JobDescription, t.JobTypeId, t.Overview, t.Position, t.StartDate, t.UpdatedAt, t.UpdatedBy, c.Id, c0.Id, j.Id, a0.Id, c1.Id, s.Id, r.Id, r.AnnouncmentId, r.CreatedAt, r.CreatedBy, r.Description, r.IsDeleted, r.UpdatedAt, r.UpdatedBy, c.CreatedAt, c.CreatedBy, c.IsDeleted, c.Name, c.Overview, c.UpdatedAt, c.UpdatedBy, c0.CreatedAt, c0.CreatedBy, c0.IsDeleted, c0.Name, c0.UpdatedAt, c0.UpdatedBy, j.CreatedAt, j.CreatedBy, j.IsDeleted, j.Name, j.UpdatedAt, j.UpdatedBy, a0.AnnouncmentId, a0.CreatedAt, a0.CreatedBy, a0.CurrencyId, a0.IsDeleted, a0.MaximumSalary, a0.MinimumSalary, a0.SalaryTypeId, a0.UpdatedAt, a0.UpdatedBy, c1.CreatedAt, c1.CreatedBy, c1.IsDeleted, c1.Name, c1.UpdatedAt, c1.UpdatedBy, s.CreatedAt, s.CreatedBy, s.IsDeleted, s.Name, s.UpdatedAt, s.UpdatedBy
+        FROM 
+        (
+            SELECT a.Id, a.CategoryId, a.CompanyId, a.CreatedAt, a.CreatedBy, a.EndDate, a.IsDeleted, a.IsPremium, a.JobDescription, a.JobTypeId, a.Overview, a.Position, a.StartDate, a.UpdatedAt, a.UpdatedBy
+            FROM Announcment AS a
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+        ) AS t
+        INNER JOIN Company AS c ON t.CompanyId == c.Id
+        INNER JOIN Category AS c0 ON t.CategoryId == c0.Id
+        INNER JOIN JobTypes AS j ON t.JobTypeId == j.Id
+        LEFT JOIN AnnouncmentSalaries AS a0 ON t.Id == a0.AnnouncmentId
+        LEFT JOIN Currency AS c1 ON a0.CurrencyId == c1.Id
+        LEFT JOIN SalaryTypes AS s ON a0.SalaryTypeId == s.Id
+        LEFT JOIN Requirements AS r ON t.Id == r.AnnouncmentId
+        ORDER BY t.Id ASC, c.Id ASC, c0.Id ASC, j.Id ASC, a0.Id ASC, c1.Id ASC, s.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Announcment>, 
+    JobSearch.Persistance.Contexts.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-07-17 15:01:56.456 +04:00 [DBG] Opening connection to database 'JobSearchTask' on server 'MUSA\SQLEXPRESS'.
+2024-07-17 15:01:56.458 +04:00 [DBG] Opened connection to database 'JobSearchTask' on server 'MUSA\SQLEXPRESS'.
+2024-07-17 15:01:56.460 +04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-17 15:01:56.461 +04:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-07-17 15:01:56.464 +04:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-07-17 15:01:56.467 +04:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[CompanyId], [t].[CreatedAt], [t].[CreatedBy], [t].[EndDate], [t].[IsDeleted], [t].[IsPremium], [t].[JobDescription], [t].[JobTypeId], [t].[Overview], [t].[Position], [t].[StartDate], [t].[UpdatedAt], [t].[UpdatedBy], [c].[Id], [c0].[Id], [j].[Id], [a0].[Id], [c1].[Id], [s].[Id], [r].[Id], [r].[AnnouncmentId], [r].[CreatedAt], [r].[CreatedBy], [r].[Description], [r].[IsDeleted], [r].[UpdatedAt], [r].[UpdatedBy], [c].[CreatedAt], [c].[CreatedBy], [c].[IsDeleted], [c].[Name], [c].[Overview], [c].[UpdatedAt], [c].[UpdatedBy], [c0].[CreatedAt], [c0].[CreatedBy], [c0].[IsDeleted], [c0].[Name], [c0].[UpdatedAt], [c0].[UpdatedBy], [j].[CreatedAt], [j].[CreatedBy], [j].[IsDeleted], [j].[Name], [j].[UpdatedAt], [j].[UpdatedBy], [a0].[AnnouncmentId], [a0].[CreatedAt], [a0].[CreatedBy], [a0].[CurrencyId], [a0].[IsDeleted], [a0].[MaximumSalary], [a0].[MinimumSalary], [a0].[SalaryTypeId], [a0].[UpdatedAt], [a0].[UpdatedBy], [c1].[CreatedAt], [c1].[CreatedBy], [c1].[IsDeleted], [c1].[Name], [c1].[UpdatedAt], [c1].[UpdatedBy], [s].[CreatedAt], [s].[CreatedBy], [s].[IsDeleted], [s].[Name], [s].[UpdatedAt], [s].[UpdatedBy]
+FROM (
+    SELECT [a].[Id], [a].[CategoryId], [a].[CompanyId], [a].[CreatedAt], [a].[CreatedBy], [a].[EndDate], [a].[IsDeleted], [a].[IsPremium], [a].[JobDescription], [a].[JobTypeId], [a].[Overview], [a].[Position], [a].[StartDate], [a].[UpdatedAt], [a].[UpdatedBy]
+    FROM [Announcment] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Company] AS [c] ON [t].[CompanyId] = [c].[Id]
+INNER JOIN [Category] AS [c0] ON [t].[CategoryId] = [c0].[Id]
+INNER JOIN [JobTypes] AS [j] ON [t].[JobTypeId] = [j].[Id]
+LEFT JOIN [AnnouncmentSalaries] AS [a0] ON [t].[Id] = [a0].[AnnouncmentId]
+LEFT JOIN [Currency] AS [c1] ON [a0].[CurrencyId] = [c1].[Id]
+LEFT JOIN [SalaryTypes] AS [s] ON [a0].[SalaryTypeId] = [s].[Id]
+LEFT JOIN [Requirements] AS [r] ON [t].[Id] = [r].[AnnouncmentId]
+ORDER BY [t].[Id], [c].[Id], [c0].[Id], [j].[Id], [a0].[Id], [c1].[Id], [s].[Id]
+2024-07-17 15:01:56.501 +04:00 [INF] Executed DbCommand (37ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[CompanyId], [t].[CreatedAt], [t].[CreatedBy], [t].[EndDate], [t].[IsDeleted], [t].[IsPremium], [t].[JobDescription], [t].[JobTypeId], [t].[Overview], [t].[Position], [t].[StartDate], [t].[UpdatedAt], [t].[UpdatedBy], [c].[Id], [c0].[Id], [j].[Id], [a0].[Id], [c1].[Id], [s].[Id], [r].[Id], [r].[AnnouncmentId], [r].[CreatedAt], [r].[CreatedBy], [r].[Description], [r].[IsDeleted], [r].[UpdatedAt], [r].[UpdatedBy], [c].[CreatedAt], [c].[CreatedBy], [c].[IsDeleted], [c].[Name], [c].[Overview], [c].[UpdatedAt], [c].[UpdatedBy], [c0].[CreatedAt], [c0].[CreatedBy], [c0].[IsDeleted], [c0].[Name], [c0].[UpdatedAt], [c0].[UpdatedBy], [j].[CreatedAt], [j].[CreatedBy], [j].[IsDeleted], [j].[Name], [j].[UpdatedAt], [j].[UpdatedBy], [a0].[AnnouncmentId], [a0].[CreatedAt], [a0].[CreatedBy], [a0].[CurrencyId], [a0].[IsDeleted], [a0].[MaximumSalary], [a0].[MinimumSalary], [a0].[SalaryTypeId], [a0].[UpdatedAt], [a0].[UpdatedBy], [c1].[CreatedAt], [c1].[CreatedBy], [c1].[IsDeleted], [c1].[Name], [c1].[UpdatedAt], [c1].[UpdatedBy], [s].[CreatedAt], [s].[CreatedBy], [s].[IsDeleted], [s].[Name], [s].[UpdatedAt], [s].[UpdatedBy]
+FROM (
+    SELECT [a].[Id], [a].[CategoryId], [a].[CompanyId], [a].[CreatedAt], [a].[CreatedBy], [a].[EndDate], [a].[IsDeleted], [a].[IsPremium], [a].[JobDescription], [a].[JobTypeId], [a].[Overview], [a].[Position], [a].[StartDate], [a].[UpdatedAt], [a].[UpdatedBy]
+    FROM [Announcment] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Company] AS [c] ON [t].[CompanyId] = [c].[Id]
+INNER JOIN [Category] AS [c0] ON [t].[CategoryId] = [c0].[Id]
+INNER JOIN [JobTypes] AS [j] ON [t].[JobTypeId] = [j].[Id]
+LEFT JOIN [AnnouncmentSalaries] AS [a0] ON [t].[Id] = [a0].[AnnouncmentId]
+LEFT JOIN [Currency] AS [c1] ON [a0].[CurrencyId] = [c1].[Id]
+LEFT JOIN [SalaryTypes] AS [s] ON [a0].[SalaryTypeId] = [s].[Id]
+LEFT JOIN [Requirements] AS [r] ON [t].[Id] = [r].[AnnouncmentId]
+ORDER BY [t].[Id], [c].[Id], [c0].[Id], [j].[Id], [a0].[Id], [c1].[Id], [s].[Id]
+2024-07-17 15:01:56.515 +04:00 [DBG] Closing data reader to 'JobSearchTask' on server 'MUSA\SQLEXPRESS'.
+2024-07-17 15:01:56.516 +04:00 [DBG] A data reader for 'JobSearchTask' on server 'MUSA\SQLEXPRESS' is being disposed after spending 11ms reading results.
+2024-07-17 15:01:56.518 +04:00 [DBG] Closing connection to database 'JobSearchTask' on server 'MUSA\SQLEXPRESS'.
+2024-07-17 15:01:56.519 +04:00 [DBG] Closed connection to database 'JobSearchTask' on server 'MUSA\SQLEXPRESS' (1ms).
+2024-07-17 15:01:56.532 +04:00 [INF] Get all menthod started in Announcment's controller. Page:1 - Take:1
+2024-07-17 15:01:56.536 +04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-07-17 15:01:56.540 +04:00 [DBG] No information found on request to perform content negotiation.
+2024-07-17 15:01:56.541 +04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-17 15:01:56.542 +04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-17 15:01:56.544 +04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-17 15:01:56.545 +04:00 [INF] Executing OkObjectResult, writing value of type 'JobSearch.Application.Features.Queries.Announcment.GetAll.GetAllAnnouncmentQueryResponse'.
+2024-07-17 15:01:56.569 +04:00 [INF] Executed action JobSearch.API.Controllers.AnnouncmentsController.GetAll (JobSearch.API) in 1679.2249ms
+2024-07-17 15:01:56.570 +04:00 [INF] Executed endpoint 'JobSearch.API.Controllers.AnnouncmentsController.GetAll (JobSearch.API)'
+2024-07-17 15:01:56.573 +04:00 [DBG] 'AppDbContext' disposed.
+2024-07-17 15:01:56.576 +04:00 [DBG] Disposing connection to database 'JobSearchTask' on server 'MUSA\SQLEXPRESS'.
+2024-07-17 15:01:56.578 +04:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-07-17 15:01:56.580 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/api/Announcments?Page=1&Take=1 - 200 null application/json; charset=utf-8 1761.7284ms

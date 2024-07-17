@@ -1,0 +1,51 @@
+2024-07-17 14:40:56.106 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-17 14:40:56.205 +04:00 [DBG] Hosting starting
+2024-07-17 14:40:56.294 +04:00 [INF] Now listening on: https://localhost:7057
+2024-07-17 14:40:56.297 +04:00 [INF] Now listening on: http://localhost:5269
+2024-07-17 14:40:56.298 +04:00 [DBG] Loaded hosting startup assembly JobSearch.API
+2024-07-17 14:40:56.299 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-17 14:40:56.300 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-17 14:40:56.300 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-17 14:40:56.301 +04:00 [INF] Hosting environment: Development
+2024-07-17 14:40:56.302 +04:00 [INF] Content root path: C:\Users\binch\source\repos\JobSearch\src\JobSearch.API
+2024-07-17 14:40:56.302 +04:00 [DBG] Hosting started
+2024-07-17 14:40:56.324 +04:00 [DBG] Connection id "0HN569JO8PC6S" accepted.
+2024-07-17 14:40:56.324 +04:00 [DBG] Connection id "0HN569JO8PC6T" accepted.
+2024-07-17 14:40:56.327 +04:00 [DBG] Connection id "0HN569JO8PC6S" started.
+2024-07-17 14:40:56.327 +04:00 [DBG] Connection id "0HN569JO8PC6T" started.
+2024-07-17 14:40:56.343 +04:00 [DBG] Connection id "0HN569JO8PC6T" received FIN.
+2024-07-17 14:40:56.343 +04:00 [DBG] Connection id "0HN569JO8PC6S" received FIN.
+2024-07-17 14:40:56.348 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 14:40:56.348 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 14:40:56.358 +04:00 [DBG] Connection id "0HN569JO8PC6S" stopped.
+2024-07-17 14:40:56.358 +04:00 [DBG] Connection id "0HN569JO8PC6T" stopped.
+2024-07-17 14:40:56.362 +04:00 [DBG] Connection id "0HN569JO8PC6S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 14:40:56.362 +04:00 [DBG] Connection id "0HN569JO8PC6T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 14:40:56.382 +04:00 [DBG] Connection id "0HN569JO8PC6U" accepted.
+2024-07-17 14:40:56.384 +04:00 [DBG] Connection id "0HN569JO8PC6U" started.
+2024-07-17 14:40:56.406 +04:00 [DBG] Connection 0HN569JO8PC6U established using the following protocol: "Tls13"
+2024-07-17 14:40:56.436 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - null null
+2024-07-17 14:40:56.507 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-17 14:40:56.539 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-17 14:40:56.541 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 14:40:56.602 +04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-07-17 14:40:56.606 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-17 14:40:56.619 +04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-07-17 14:40:56.622 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-17 14:40:56.625 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-17 14:40:56.625 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - null null
+2024-07-17 14:40:56.626 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - 200 null text/html;charset=utf-8 190.5772ms
+2024-07-17 14:40:56.635 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.384ms
+2024-07-17 14:40:56.663 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.4769ms
+2024-07-17 14:40:56.823 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - null null
+2024-07-17 14:40:56.829 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-17 14:40:56.831 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 14:40:56.923 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.5098ms

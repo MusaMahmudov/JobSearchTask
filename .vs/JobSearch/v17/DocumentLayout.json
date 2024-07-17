@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\binch\\source\\repos\\JobSearch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3494FC63-8D28-461D-953A-0D813079F931}|src\\JobSearch.API\\JobSearch.API.csproj|c:\\users\\binch\\source\\repos\\jobsearch\\src\\jobsearch.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3494FC63-8D28-461D-953A-0D813079F931}|src\\JobSearch.API\\JobSearch.API.csproj|solutionrelative:src\\jobsearch.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3494FC63-8D28-461D-953A-0D813079F931}|src\\JobSearch.API\\JobSearch.API.csproj|c:\\users\\binch\\source\\repos\\jobsearch\\src\\jobsearch.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3494FC63-8D28-461D-953A-0D813079F931}|src\\JobSearch.API\\JobSearch.API.csproj|solutionrelative:src\\jobsearch.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3494FC63-8D28-461D-953A-0D813079F931}|src\\JobSearch.API\\JobSearch.API.csproj|c:\\users\\binch\\source\\repos\\jobsearch\\src\\jobsearch.api\\controllers\\announcmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3494FC63-8D28-461D-953A-0D813079F931}|src\\JobSearch.API\\JobSearch.API.csproj|solutionrelative:src\\jobsearch.api\\controllers\\announcmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\binch\\source\\repos\\JobSearch\\src\\JobSearch.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\JobSearch.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\binch\\source\\repos\\JobSearch\\src\\JobSearch.API\\appsettings.json",
+              "RelativeToolTip": "src\\JobSearch.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T10:23:00.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnnouncmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\binch\\source\\repos\\JobSearch\\src\\JobSearch.API\\Controllers\\AnnouncmentsController.cs",
+              "RelativeDocumentMoniker": "src\\JobSearch.API\\Controllers\\AnnouncmentsController.cs",
+              "ToolTip": "C:\\Users\\binch\\source\\repos\\JobSearch\\src\\JobSearch.API\\Controllers\\AnnouncmentsController.cs",
+              "RelativeToolTip": "src\\JobSearch.API\\Controllers\\AnnouncmentsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T08:04:06.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\binch\\source\\repos\\JobSearch\\src\\JobSearch.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\JobSearch.API\\Program.cs",
+              "ToolTip": "C:\\Users\\binch\\source\\repos\\JobSearch\\src\\JobSearch.API\\Program.cs",
+              "RelativeToolTip": "src\\JobSearch.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:23:49.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

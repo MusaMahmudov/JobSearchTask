@@ -1,0 +1,39 @@
+2024-07-17 15:04:08.366 +04:00 [DBG] Connection id "0HN569VC7G78V" is closing.
+2024-07-17 15:04:08.371 +04:00 [DBG] Connection id "0HN569VC7G78V" is closed. The last processed stream ID was 9.
+2024-07-17 15:04:08.375 +04:00 [DBG] Connection id "0HN569VC7G78V" received FIN.
+2024-07-17 15:04:08.376 +04:00 [DBG] Connection id "0HN569VC7G78V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 15:04:08.378 +04:00 [DBG] The connection queue processing loop for 0HN569VC7G78V completed.
+2024-07-17 15:04:08.380 +04:00 [DBG] Connection id "0HN569VC7G78V" stopped.
+2024-07-17 15:04:55.029 +04:00 [DBG] Config reload token fired. Checking for changes...
+2024-07-17 15:04:55.164 +04:00 [DBG] Connection id "0HN569VC7G790" received FIN.
+2024-07-17 15:04:55.168 +04:00 [DBG] Connection id "0HN569VC7G790" accepted.
+2024-07-17 15:04:55.169 +04:00 [DBG] Connection id "0HN569VC7G790" started.
+2024-07-17 15:04:55.171 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-17 15:04:55.174 +04:00 [DBG] Connection id "0HN569VC7G790" stopped.
+2024-07-17 15:04:55.175 +04:00 [DBG] Connection id "0HN569VC7G790" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-17 15:04:55.218 +04:00 [DBG] Connection id "0HN569VC7G791" accepted.
+2024-07-17 15:04:55.221 +04:00 [DBG] Connection id "0HN569VC7G791" started.
+2024-07-17 15:04:55.226 +04:00 [DBG] Connection 0HN569VC7G791 established using the following protocol: "Tls13"
+2024-07-17 15:04:55.228 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - null null
+2024-07-17 15:04:55.237 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-17 15:04:55.238 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-17 15:04:55.239 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 15:04:55.240 +04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-07-17 15:04:55.241 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-17 15:04:55.243 +04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-07-17 15:04:55.244 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-17 15:04:55.245 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - 200 null text/html;charset=utf-8 17.1658ms
+2024-07-17 15:04:55.255 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-17 15:04:55.255 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - null null
+2024-07-17 15:04:55.259 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.1943ms
+2024-07-17 15:04:55.273 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.4069ms
+2024-07-17 15:04:55.286 +04:00 [DBG] Config reload token fired. Checking for changes...
+2024-07-17 15:04:55.410 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - null null
+2024-07-17 15:04:55.416 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-17 15:04:55.418 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-17 15:04:55.420 +04:00 [DBG] Request did not match any endpoints
+2024-07-17 15:04:55.429 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.8715ms

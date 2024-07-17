@@ -1,0 +1,15 @@
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\bin\Debug\net8.0\JobSearch.Application.deps.json
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\bin\Debug\net8.0\JobSearch.Application.dll
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\bin\Debug\net8.0\JobSearch.Application.pdb
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\bin\Debug\net8.0\JobSearch.Domain.dll
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\bin\Debug\net8.0\JobSearch.Domain.pdb
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\JobSearch.Application.csproj.AssemblyReference.cache
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\JobSearch.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\JobSearch.Application.AssemblyInfoInputs.cache
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\JobSearch.Application.AssemblyInfo.cs
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\JobSearch.Application.csproj.CoreCompileInputs.cache
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\JobSearc.62B7C954.Up2Date
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\JobSearch.Application.dll
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\refint\JobSearch.Application.dll
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\JobSearch.Application.pdb
+C:\Users\binch\source\repos\JobSearch\JobSearch.Application\obj\Debug\net8.0\ref\JobSearch.Application.dll
